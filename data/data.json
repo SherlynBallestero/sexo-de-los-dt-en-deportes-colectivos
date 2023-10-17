@@ -2746,7 +2746,7 @@
             },
             "male": {
                 "event_date": "2022",
-                "event_name": "Volleyball Nations League",
+                "event_name": "Campeonato Mundial de Voleibol Masculino",
                 "countries": [
                     {
                         "country_id": "ita",
@@ -2768,7 +2768,7 @@
                     },
                     {
                         "country_id": "slo",
-                        "manager_name": "Mark Lebedew",
+                        "manager_name": "Gheorghe Crețu",
                         "manager_sex": "male",
                         "result": 4
                     },
@@ -2786,7 +2786,7 @@
                     },
                     {
                         "country_id": "ukr",
-                        "manager_name": "",
+                        "manager_name": "Uģis Krastiņš",
                         "manager_sex": "male",
                         "result": 7
                     },
@@ -2810,7 +2810,7 @@
                     },
                     {
                         "country_id": "tur",
-                        "manager_name": "",
+                        "manager_name": "Nedim Özbey",
                         "manager_sex": "male",
                         "result": 11
                     },
@@ -2840,7 +2840,7 @@
                     },
                     {
                         "country_id": "tun",
-                        "manager_name": "",
+                        "manager_name": "Antonio Giacobbe",
                         "manager_sex": "male",
                         "result": 16
                     },
@@ -2852,42 +2852,42 @@
                     },
                     {
                         "country_id": "mex",
-                        "manager_name": "",
+                        "manager_name": "Jorge Miguel Azair Lopez",
                         "manager_sex": "male",
                         "result": 18
                     },
                     {
                         "country_id": "egy",
-                        "manager_name": "Michał Winiarski",
+                        "manager_name": "Hassan Ibrahim Kamel Elhossary",
                         "manager_sex": "male",
                         "result": 19
                     },
                     {
                         "country_id": "bul",
-                        "manager_name": "Nikolay Jeliazkov",
+                        "manager_name": "Nikolay Jelyazkov",
                         "manager_sex": "male",
                         "result": 20
                     },
                     {
                         "country_id": "qat",
-                        "manager_name": "",
+                        "manager_name": "Camilo Andres Soto",
                         "manager_sex": "male",
                         "result": 21
                     },
                     {
                         "country_id": "pur",
-                        "manager_name": "",
+                        "manager_name": "Oswald Irwin Antonetti Cameron",
                         "manager_sex": "male",
                         "result": 22
                     },
                     {
                         "country_id": "cmr",
-                        "manager_name": "",
+                        "manager_name": "Guy-Roger Nanga",
                         "manager_sex": "male",
                         "result": 23
                     },
                     {
-                        "country_id": "CHN",
+                        "country_id": "chn",
                         "manager_name": "Sheng Wu",
                         "manager_sex": "male",
                         "result": 24
