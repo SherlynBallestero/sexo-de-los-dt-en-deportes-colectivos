@@ -503,7 +503,7 @@
     },
     "sports": {
         "basket": {
-            "sport_Name": "Baloncesto",
+            "sport_name": "Baloncesto",
             "female": {
                 "event_name": "Copa Mundial",
                 "event_date": 2022,
@@ -1183,7 +1183,7 @@
             }
         },
         "rugby": {
-            "name": "Rugby 7",
+            "sport_name": "Rugby 7",
             "female": {
                 "event_name": "Rugby World Cup Sevens",
                 "event_date": 2022,
