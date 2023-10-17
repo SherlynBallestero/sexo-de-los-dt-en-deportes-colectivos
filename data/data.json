@@ -523,13 +523,13 @@
                     },
                     {
                         "country_id": "bel",
-                        "manager_name": "Philip Mestdagh",
+                        "manager_name": "Vallery Demory",
                         "manager_sex": "male",
                         "result": 5
                     },
                     {
                         "country_id": "bih",
-                        "manager_name": "Damir Mulaomerović",
+                        "manager_name": "Goran Lojo",
                         "manager_sex": "male",
                         "result": 12
                     },
@@ -547,20 +547,20 @@
                     },
                     {
                         "country_id": "fra",
-                        "manager_name": "Valérie Garnier ",
+                        "manager_name": "Jean Aime Toupane",
                         "manager_sex": "female",
                         "result": 7
                     },
                     {
                         "country_id": "jpn",
-                        "manager_name": "Tom Hovasse",
+                        "manager_name": "Toru Onzuka",
                         "manager_sex": "male",
                         "result": 9
                     },
                     {
                         "country_id": "kor",
-                        "manager_name": "Lee Moon-kyu",
-                        "manager_sex": "male",
+                        "manager_name": "Sunmin Jung",
+                        "manager_sex": "female",
                         "result": 10
                     },
                     {
@@ -571,13 +571,13 @@
                     },
                     {
                         "country_id": "srb",
-                        "manager_name": " Marina Maljković",
+                        "manager_name": "Marina Maljković",
                         "manager_sex": "female",
                         "result": 6
                     },
                     {
                         "country_id": "mli",
-                        "manager_name": " Joaquín Luis Brizuela",
+                        "manager_name": "Joaquín Luis Brizuela",
                         "manager_sex": "male",
                         "result": 11
                     }
@@ -631,7 +631,7 @@
                     },
                     {
                         "country_id": "civ",
-                        "manager_name": "Dejan Prokie",
+                        "manager_name": "Dejan Prokic",
                         "manager_sex": "male",
                         "result": 27
                     },
@@ -667,7 +667,7 @@
                     },
                     {
                         "country_id": "fin",
-                        "manager_name": "Lassi Tuoui",
+                        "manager_name": "Lassi Tuouvi",
                         "manager_sex": "male",
                         "result": 21
                     },
@@ -697,7 +697,7 @@
                     },
                     {
                         "country_id": "ita",
-                        "manager_name": "Gianmarco Pozzeco",
+                        "manager_name": "Gianmarco Pozzecco",
                         "manager_sex": "male",
                         "result": 8
                     },
@@ -721,7 +721,7 @@
                     },
                     {
                         "country_id": "lib",
-                        "manager_name": "Jad El Haji",
+                        "manager_name": "Jad El Hajj",
                         "manager_sex": "male",
                         "result": 23
                     },
