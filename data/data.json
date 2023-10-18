@@ -1292,13 +1292,13 @@
                 "countries": [
                     {
                         "country_id": "arg",
-                        "manager_name": "Santiago Gómez",
+                        "manager_name": "Santiago Gómez Cora",
                         "manager_sex": "male",
                         "result": 5
                     },
                     {
                         "country_id": "aus",
-                        "manager_name": "John Maneti",
+                        "manager_name": "John Manenti",
                         "manager_sex": "male",
                         "result": 4
                     },
@@ -1340,13 +1340,13 @@
                     },
                     {
                         "country_id": "wal",
-                        "manager_name": "Wayne Pivac",
+                        "manager_name": "Richie Pugh",
                         "manager_sex": "male",
                         "result": 15
                     },
                     {
                         "country_id": "fra",
-                        "manager_name": "Jerome Daret",
+                        "manager_name": "Julien Candelon",
                         "manager_sex": "male",
                         "result": 6
                     },
@@ -1376,7 +1376,7 @@
                     },
                     {
                         "country_id": "ken",
-                        "manager_name": "Kevin Wambua",
+                        "manager_name": "Damian McGrath",
                         "manager_sex": "male",
                         "result": 12
                     },
@@ -1400,7 +1400,7 @@
                     },
                     {
                         "country_id": "rsa",
-                        "manager_name": "Sandele Ngcobo",
+                        "manager_name": "Sandile Ngcobo",
                         "manager_sex": "male",
                         "result": 7
                     },
@@ -1418,7 +1418,7 @@
                     },
                     {
                         "country_id": "uru",
-                        "manager_name": "Luis P. Archad",
+                        "manager_name": "Luis Pedro Achard",
                         "manager_sex": "male",
                         "result": 10
                     },
