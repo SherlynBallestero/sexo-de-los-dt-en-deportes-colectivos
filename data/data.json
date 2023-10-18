@@ -601,7 +601,7 @@
                     },
                     {
                         "country_id": "aus",
-                        "manager_name": "Brian W. Goorjian",
+                        "manager_name": "Brian Warwick Goorjian",
                         "manager_sex": "male",
                         "result": 10
                     },
@@ -619,19 +619,19 @@
                     },
                     {
                         "country_id": "can",
-                        "manager_name": "Jordi Fernández",
+                        "manager_name": "Jordi Fernández Torres",
                         "manager_sex": "male",
                         "result": 3
                     },
                     {
                         "country_id": "chn",
-                        "manager_name": "Aleksander Djordjevic",
+                        "manager_name": "Aleksandar Djordjevic",
                         "manager_sex": "male",
                         "result": 29
                     },
                     {
                         "country_id": "civ",
-                        "manager_name": "Dejan Prokie",
+                        "manager_name": "Dejan Prokic",
                         "manager_sex": "male",
                         "result": 27
                     },
@@ -667,7 +667,7 @@
                     },
                     {
                         "country_id": "fin",
-                        "manager_name": "Lassi Tuoui",
+                        "manager_name": "Lassi Touvi",
                         "manager_sex": "male",
                         "result": 21
                     },
@@ -697,7 +697,7 @@
                     },
                     {
                         "country_id": "ita",
-                        "manager_name": "Gianmarco Pozzeco",
+                        "manager_name": "Gianmarco Pozzecco",
                         "manager_sex": "male",
                         "result": 8
                     },
@@ -751,7 +751,7 @@
                     },
                     {
                         "country_id": "pur",
-                        "manager_name": "Nelsón Colón",
+                        "manager_name": "Nelson Colón",
                         "manager_sex": "male",
                         "result": 12
                     },
