@@ -1892,7 +1892,7 @@
                     },
                     {
                         "country_id": "slo",
-                        "manager_name": "Uroš Aorman",
+                        "manager_name": "Uroš Zorman",
                         "manager_sex": "male",
                         "result": 10
                     },
@@ -1993,7 +1993,7 @@
                         "result": 6
                     },
                     {
-                        "country_id": "CRO",
+                        "country_id": "cro",
                         "manager_name": "Hrvoje Horvat",
                         "manager_sex": "male",
                         "result": 9
@@ -2081,7 +2081,7 @@
                     },
                     {
                         "country_id": "can",
-                        "manager_name": "Kalegh Rafter",
+                        "manager_name": "Kaleigh Rafter",
                         "manager_sex": "female",
                         "result": 6
                     },
