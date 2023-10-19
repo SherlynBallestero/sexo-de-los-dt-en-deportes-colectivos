@@ -503,7 +503,7 @@
     },
     "sports": {
         "basket": {
-            "sport_Name": "Baloncesto",
+            "sport_name": "Baloncesto",
             "female": {
                 "event_name": "Copa Mundial",
                 "event_date": 2022,
@@ -523,13 +523,13 @@
                     },
                     {
                         "country_id": "bel",
-                        "manager_name": "Philip Mestdagh",
+                        "manager_name": "Vallery Demory",
                         "manager_sex": "male",
                         "result": 5
                     },
                     {
                         "country_id": "bih",
-                        "manager_name": "Damir Mulaomerović",
+                        "manager_name": "Goran Lojo",
                         "manager_sex": "male",
                         "result": 12
                     },
@@ -547,20 +547,20 @@
                     },
                     {
                         "country_id": "fra",
-                        "manager_name": "Valérie Garnier ",
+                        "manager_name": "Jean Aime Toupane",
                         "manager_sex": "female",
                         "result": 7
                     },
                     {
                         "country_id": "jpn",
-                        "manager_name": "Tom Hovasse",
+                        "manager_name": "Toru Onzuka",
                         "manager_sex": "male",
                         "result": 9
                     },
                     {
                         "country_id": "kor",
-                        "manager_name": "Lee Moon-kyu",
-                        "manager_sex": "male",
+                        "manager_name": "Sunmin Jung",
+                        "manager_sex": "female",
                         "result": 10
                     },
                     {
@@ -571,13 +571,13 @@
                     },
                     {
                         "country_id": "srb",
-                        "manager_name": " Marina Maljković",
+                        "manager_name": "Marina Maljković",
                         "manager_sex": "female",
                         "result": 6
                     },
                     {
                         "country_id": "mli",
-                        "manager_name": " Joaquín Luis Brizuela",
+                        "manager_name": "Joaquín Luis Brizuela",
                         "manager_sex": "male",
                         "result": 11
                     }
@@ -721,7 +721,7 @@
                     },
                     {
                         "country_id": "lib",
-                        "manager_name": "Jad El Haji",
+                        "manager_name": "Jad El Hajj",
                         "manager_sex": "male",
                         "result": 23
                     },
@@ -1183,7 +1183,7 @@
             }
         },
         "rugby": {
-            "name": "Rugby 7",
+            "sport_name": "Rugby 7",
             "female": {
                 "event_name": "Rugby World Cup Sevens",
                 "event_date": 2022,
@@ -1518,7 +1518,7 @@
                 ]
             },
             "male": {
-                "event_name": "Clásico Mundial",
+                "event_name": "Clásico Mundial de Béisbol",
                 "event_date": 2023,
                 "countries": [
                     {
@@ -2044,7 +2044,7 @@
             }
         },
         "softball": {
-            "sport_name": "Softball",
+            "sport_name": "Sóftbol",
             "female": {
                 "event_name": "Copa Mundial",
                 "event_date": 2022,
@@ -2100,42 +2100,42 @@
                 ]
             },
             "male": {
-                "event_name": "Copa Mundial",
-                "event_date": 2023,
+                "event_name": "Copa Mundial de Sóftbol Masculino",
+                "event_date": 2022,
                 "countries": [
                     {
                         "country_id": "aus",
-                        "manager_name": "Laing Harrow",
+                        "manager_name": "Robert Laing Harrow", 
                         "manager_sex": "male",
                         "result": 1
                     },
                     {
                         "country_id": "can",
-                        "manager_name": "John Stuart Steve",
+                        "manager_name": "John Steven Stuart",
                         "manager_sex": "male",
                         "result": 2
                     },
                     {
                         "country_id": "usa",
-                        "manager_name": "Ronald Hackett Lloyd",
+                        "manager_name": "Ronald Lloyd Hackett",
                         "manager_sex": "male",
                         "result": 3
                     },
                     {
                         "country_id": "arg",
-                        "manager_name": "Julio Gamarci Ismael",
+                        "manager_name": "Julio Ismael Gamarci",
                         "manager_sex": "male",
                         "result": 4
                     },
                     {
                         "country_id": "cub",
-                        "manager_name": "Leonardo Cárdenas",
+                        "manager_name": "Leonardo José Cárdenas Perera",
                         "manager_sex": "male",
                         "result": 5
                     },
                     {
                         "country_id": "ven",
-                        "manager_name": "Luis Russo",
+                        "manager_name": "Luis Gerardo Russo",
                         "manager_sex": "male",
                         "result": 6
                     },
@@ -2147,7 +2147,7 @@
                     },
                     {
                         "country_id": "nzl",
-                        "manager_name": "Mark Sorenson James",
+                        "manager_name": "Mark James Sorenson",
                         "manager_sex": "male",
                         "result": 8
                     },
@@ -2159,19 +2159,19 @@
                     },
                     {
                         "country_id": "phi",
-                        "manager_name": "Jasper Cabrera",
+                        "manager_name": "Jasper Bacarisas Cabrera",
                         "manager_sex": "male",
                         "result": 10
                     },
                     {
                         "country_id": "rsa",
-                        "manager_name": "Shukri Conrad",
+                        "manager_name": "Malemola Eric Raphasha",
                         "manager_sex": "male",
                         "result": 11
                     },
                     {
                         "country_id": "den",
-                        "manager_name": "Craig Wallace Ian",
+                        "manager_name": "Craig Ian Wallace",
                         "manager_sex": "male",
                         "result": 12
                     }
@@ -2746,7 +2746,7 @@
             },
             "male": {
                 "event_date": "2022",
-                "event_name": "Volleyball Nations League",
+                "event_name": "Campeonato Mundial de Voleibol Masculino",
                 "countries": [
                     {
                         "country_id": "ita",
@@ -2768,7 +2768,7 @@
                     },
                     {
                         "country_id": "slo",
-                        "manager_name": "Mark Lebedew",
+                        "manager_name": "Gheorghe Crețu",
                         "manager_sex": "male",
                         "result": 4
                     },
@@ -2786,7 +2786,7 @@
                     },
                     {
                         "country_id": "ukr",
-                        "manager_name": "",
+                        "manager_name": "Uģis Krastiņš",
                         "manager_sex": "male",
                         "result": 7
                     },
@@ -2810,7 +2810,7 @@
                     },
                     {
                         "country_id": "tur",
-                        "manager_name": "",
+                        "manager_name": "Nedim Özbey",
                         "manager_sex": "male",
                         "result": 11
                     },
@@ -2840,7 +2840,7 @@
                     },
                     {
                         "country_id": "tun",
-                        "manager_name": "",
+                        "manager_name": "Antonio Giacobbe",
                         "manager_sex": "male",
                         "result": 16
                     },
@@ -2852,42 +2852,42 @@
                     },
                     {
                         "country_id": "mex",
-                        "manager_name": "",
+                        "manager_name": "Jorge Miguel Azair Lopez",
                         "manager_sex": "male",
                         "result": 18
                     },
                     {
                         "country_id": "egy",
-                        "manager_name": "Michał Winiarski",
+                        "manager_name": "Hassan Ibrahim Kamel Elhossary",
                         "manager_sex": "male",
                         "result": 19
                     },
                     {
                         "country_id": "bul",
-                        "manager_name": "Nikolay Jeliazkov",
+                        "manager_name": "Nikolay Jelyazkov",
                         "manager_sex": "male",
                         "result": 20
                     },
                     {
                         "country_id": "qat",
-                        "manager_name": "",
+                        "manager_name": "Camilo Andres Soto",
                         "manager_sex": "male",
                         "result": 21
                     },
                     {
                         "country_id": "pur",
-                        "manager_name": "",
+                        "manager_name": "Oswald Irwin Antonetti Cameron",
                         "manager_sex": "male",
                         "result": 22
                     },
                     {
                         "country_id": "cmr",
-                        "manager_name": "",
+                        "manager_name": "Guy-Roger Nanga",
                         "manager_sex": "male",
                         "result": 23
                     },
                     {
-                        "country_id": "CHN",
+                        "country_id": "chn",
                         "manager_name": "Sheng Wu",
                         "manager_sex": "male",
                         "result": 24
