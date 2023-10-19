@@ -2386,7 +2386,7 @@
             }
         },
         "polo": {
-            "sport_name": "Polo",
+            "sport_name": "Waterpolo",
             "female": {
                 "event_name": "Campeonato Mundial",
                 "event_date": 2023,
@@ -2399,7 +2399,7 @@
                     },
                     {
                         "country_id": "esp",
-                        "manager_name": "Evangelos Doudesis",
+                        "manager_name": "Miguel Ángel Oca",
                         "manager_sex": "male",
                         "result": 2
                     },
@@ -2417,13 +2417,13 @@
                     },
                     {
                         "country_id": "jpn",
-                        "manager_name": "Yoji Omoto M",
+                        "manager_name": "Yoji Omoto",
                         "manager_sex": "male",
                         "result": 14
                     },
                     {
                         "country_id": "hun",
-                        "manager_name": "Attila Bíró M",
+                        "manager_name": "Attila Bíró",
                         "manager_sex": "male",
                         "result": 6
                     },
@@ -2447,8 +2447,8 @@
                     },
                     {
                         "country_id": "fra",
-                        "manager_name": "Lorene Derenty",
-                        "manager_sex": "female",
+                        "manager_name": "Theodoros Lorantos",
+                        "manager_sex": "male",
                         "result": 9
                     },
                     {
@@ -2464,14 +2464,14 @@
                         "result": 11
                     },
                     {
-                        "country_id": "SA",
+                        "country_id": "rsa",
                         "manager_name": "Nicola Barrett",
                         "manager_sex": "female",
                         "result": 12
                     },
                     {
                         "country_id": "chn",
-                        "manager_name": "Theocharis Pavlidis M",
+                        "manager_name": "Charis Pavlidis",
                         "manager_sex": "male",
                         "result": 13
                     },
@@ -2501,7 +2501,7 @@
                     },
                     {
                         "country_id": "aus",
-                        "manager_name": "Timothy Hamill",
+                        "manager_name": "Tim Hamill",
                         "manager_sex": "male",
                         "result": 10
                     },
@@ -2543,7 +2543,7 @@
                     },
                     {
                         "country_id": "gre",
-                        "manager_name": "Thodoris Vlachos",
+                        "manager_name": "Thodoros Vlachos",
                         "manager_sex": "male",
                         "result": 2
                     },
@@ -2555,7 +2555,7 @@
                     },
                     {
                         "country_id": "ita",
-                        "manager_name": "Sandro Campagna",
+                        "manager_name": "Alessandro Campagna",
                         "manager_sex": "male",
                         "result": 5
                     },
