@@ -1658,7 +1658,7 @@
                     },
                     {
                         "country_id": "swe",
-                        "manager_name": "Glenn Solberg",
+                        "manager_name": "Tomas Axnér",
                         "manager_sex": "male",
                         "result": 5
                     },
@@ -1670,7 +1670,7 @@
                     },
                     {
                         "country_id": "rou",
-                        "manager_name": "Carlos Viver",
+                        "manager_name": "Adrian Vasile",
                         "manager_sex": "male",
                         "result": 13
                     },
@@ -1688,19 +1688,19 @@
                     },
                     {
                         "country_id": "jpn",
-                        "manager_name": "Ulrik Kirkely",
+                        "manager_name": "Shigeo Kusumoto",
                         "manager_sex": "male",
                         "result": 11
                     },
                     {
                         "country_id": "kor",
-                        "manager_name": "Kang Jae-won",
+                        "manager_name": "Jang In-ik",
                         "manager_sex": "male",
                         "result": 14
                     },
                     {
                         "country_id": "arg",
-                        "manager_name": "Dady Gallardo",
+                        "manager_name":"Eduardo Gallardo",
                         "manager_sex": "male",
                         "result": 21
                     },
@@ -1712,19 +1712,19 @@
                     },
                     {
                         "country_id": "esp",
-                        "manager_name": "Ambrosio José Martín Cedres",
+                        "manager_name": "José Ignacio Prades Pons",
                         "manager_sex": "male",
                         "result": 4
                     },
                     {
                         "country_id": "hun",
-                        "manager_name": "Chema Rodriguez",
+                        "manager_name": "Vladimir Golovin",
                         "manager_sex": "male",
                         "result": 10
                     },
                     {
                         "country_id": "ger",
-                        "manager_name": "Alfred Gislasson",
+                        "manager_name": "Henk Groener",
                         "manager_sex": "male",
                         "result": 7
                     },
@@ -1766,7 +1766,7 @@
                     },
                     {
                         "country_id": "par",
-                        "manager_name": "Marizza Faria",
+                        "manager_name": "Neri Vera",
                         "manager_sex": "female",
                         "result": 29
                     },
@@ -1778,7 +1778,7 @@
                     },
                     {
                         "country_id": "cgo",
-                        "manager_name": "Celestin Mpoua",
+                        "manager_name": "Younes Tatby",
                         "manager_sex": "male",
                         "result": 23
                     },
@@ -1808,7 +1808,7 @@
                     },
                     {
                         "country_id": "pur",
-                        "manager_name": "Camilo Estevez",
+                        "manager_name": "José António Silva",
                         "manager_sex": "male",
                         "result": 20
                     },
@@ -1820,13 +1820,13 @@
                     },
                     {
                         "country_id": "slo",
-                        "manager_name": "Dragan Adzic",
+                        "manager_name": "Herbert Müller",
                         "manager_sex": "male",
                         "result": 17
                     },
                     {
                         "country_id": "svk",
-                        "manager_name": "Jorge Dueñas",
+                        "manager_name": "Dragan Adžić",
                         "manager_sex": "male",
                         "result": 26
                     },
