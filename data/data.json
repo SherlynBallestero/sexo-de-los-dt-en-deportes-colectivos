@@ -601,7 +601,7 @@
                     },
                     {
                         "country_id": "aus",
-                        "manager_name": "Brian W. Goorjian",
+                        "manager_name": "Brian Warwick Goorjian",
                         "manager_sex": "male",
                         "result": 10
                     },
@@ -619,13 +619,13 @@
                     },
                     {
                         "country_id": "can",
-                        "manager_name": "Jordi Fernández",
+                        "manager_name": "Jordi Fernández Torres",
                         "manager_sex": "male",
                         "result": 3
                     },
                     {
                         "country_id": "chn",
-                        "manager_name": "Aleksander Djordjevic",
+                        "manager_name": "Aleksandar Djordjevic",
                         "manager_sex": "male",
                         "result": 29
                     },
@@ -667,7 +667,7 @@
                     },
                     {
                         "country_id": "fin",
-                        "manager_name": "Lassi Tuouvi",
+                        "manager_name": "Lassi Touvi",
                         "manager_sex": "male",
                         "result": 21
                     },
@@ -751,7 +751,7 @@
                     },
                     {
                         "country_id": "pur",
-                        "manager_name": "Nelsón Colón",
+                        "manager_name": "Nelson Colón",
                         "manager_sex": "male",
                         "result": 12
                     },
@@ -1292,13 +1292,13 @@
                 "countries": [
                     {
                         "country_id": "arg",
-                        "manager_name": "Santiago Gómez",
+                        "manager_name": "Santiago Gómez Cora",
                         "manager_sex": "male",
                         "result": 5
                     },
                     {
                         "country_id": "aus",
-                        "manager_name": "John Maneti",
+                        "manager_name": "John Manenti",
                         "manager_sex": "male",
                         "result": 4
                     },
@@ -1340,13 +1340,13 @@
                     },
                     {
                         "country_id": "wal",
-                        "manager_name": "Wayne Pivac",
+                        "manager_name": "Richie Pugh",
                         "manager_sex": "male",
                         "result": 15
                     },
                     {
                         "country_id": "fra",
-                        "manager_name": "Jerome Daret",
+                        "manager_name": "Julien Candelon",
                         "manager_sex": "male",
                         "result": 6
                     },
@@ -1376,7 +1376,7 @@
                     },
                     {
                         "country_id": "ken",
-                        "manager_name": "Kevin Wambua",
+                        "manager_name": "Damian McGrath",
                         "manager_sex": "male",
                         "result": 12
                     },
@@ -1400,7 +1400,7 @@
                     },
                     {
                         "country_id": "rsa",
-                        "manager_name": "Sandele Ngcobo",
+                        "manager_name": "Sandile Ngcobo",
                         "manager_sex": "male",
                         "result": 7
                     },
@@ -1418,7 +1418,7 @@
                     },
                     {
                         "country_id": "uru",
-                        "manager_name": "Luis P. Archad",
+                        "manager_name": "Luis Pedro Achard",
                         "manager_sex": "male",
                         "result": 10
                     },
