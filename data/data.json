@@ -2287,100 +2287,115 @@
                 "event_date": 2023,
                 "countries": [
                     {
-                        "country_id": "arg",
-                        "manager_name": "Mariano Ronconi",
-                        "manager_sex": "male",
-                        "result": 10
+                        "country_id":"arg",
+                        "manager_name":"Mariano Ronconi",
+                        "manager_sex":"male",
+                        "result":"10"
                     },
+
                     {
-                        "country_id": "aus",
-                        "manager_name": "Colin Batch",
-                        "manager_sex": "male",
-                        "result": 4
+                        "country_id":"aus",
+                        "manager_name":"Colin Batch",
+                        "manager_sex":"male",
+                        "result":"4"
                     },
+
                     {
-                        "country_id": "bel",
-                        "manager_name": "Michel van den Heuvel",
-                        "manager_sex": "male",
-                        "result": 2
+                        "country_id":"bel",
+                        "manager_name":"Michel van den Heuvel",
+                        "manager_sex":"male",
+                        "result":"2"
                     },
+
                     {
-                        "country_id": "chi",
-                        "manager_name": "Jorge Dabanch",
-                        "manager_sex": "male",
-                        "result": 16
+                        "country_id":"chi",
+                        "manager_name":"Jorge Dabanch",
+                        "manager_sex":"male",
+                        "result":"16"
                     },
+
                     {
-                        "country_id": "eng",
-                        "manager_name": "Paul Revington",
-                        "manager_sex": "male",
-                        "result": 5
+                        "country_id":"eng",
+                        "manager_name":"Paul Revington",
+                        "manager_sex":"male",
+                        "result":"5"
                     },
+
                     {
-                        "country_id": "esp",
-                        "manager_name": "Max Caldas",
-                        "manager_sex": "male",
-                        "result": 6
+                        "country_id":"esp",
+                        "manager_name":"Max Caldas",
+                        "manager_sex":"male",
+                        "result":"6"
                     },
+
                     {
-                        "country_id": "fra",
-                        "manager_name": "Frederic Soyez",
-                        "manager_sex": "male",
-                        "result": 14
+                        "country_id":"fra",
+                        "manager_name":"Frederic Soyez",
+                        "manager_sex":"male",
+                        "result":"14"
                     },
+
                     {
-                        "country_id": "ger",
-                        "manager_name": "André Henning",
-                        "manager_sex": "male",
-                        "result": 1
+                        "country_id":"ger",
+                        "manager_name":"André Henning",
+                        "manager_sex":"male",
+                        "result":"1"
                     },
+
                     {
-                        "country_id": "ind",
-                        "manager_name": "Graham Reid",
-                        "manager_sex": "male",
-                        "result": 9
+                        "country_id":"ind",
+                        "manager_name":"Graham Reid",
+                        "manager_sex":"male",
+                        "result":"9"
                     },
+
                     {
-                        "country_id": "jpn",
-                        "manager_name": "Akira Takahashi",
-                        "manager_sex": "male",
-                        "result": 15
+                        "country_id":"jpn",
+                        "manager_name":"Akira Takahashi",
+                        "manager_sex":"male",
+                        "result":"15"
                     },
+
                     {
-                        "country_id": "kor",
-                        "manager_name": "Kyo Shin Seok",
-                        "manager_sex": "male",
-                        "result": 8
+                        "country_id":"kor",
+                        "manager_name":"Kyo Shin Seok",
+                        "manager_sex":"male",
+                        "result":"8"
                     },
+
                     {
-                        "country_id": "mas",
-                        "manager_name": "Arul Anthoni",
-                        "manager_sex": "male",
-                        "result": 113
+                        "country_id":"mas",
+                        "manager_name":"Arul Anthoni",
+                        "manager_sex":"male",
+                        "result":"13"
                     },
+
                     {
-                        "country_id": "ned",
-                        "manager_name": "Jeroen Delmee",
-                        "manager_sex": "male",
-                        "result": 3
+                        "country_id":"ned",
+                        "manager_name":"Jeroen Delmee",
+                        "manager_sex":"male",
+                        "result":"3"
                     },
+
                     {
-                        "country_id": "nzl",
-                        "manager_name": "Greg Nicol",
-                        "manager_sex": "male",
-                        "result": 7
+                        "country_id":"nzl",
+                        "manager_name":"Greg Nicol",
+                        "manager_sex":"male",
+                        "result":"7"
                     },
+
                     {
-                        "country_id": "rsa",
-                        "manager_name": "Cheslyn Gie",
-                        "manager_sex": "male",
-                        "result": 11
+                        "country_id":"rsa",
+                        "manager_name":"Cheslyn Gie",
+                        "manager_sex":"male",
+                        "result":"11"
                     },
+
                     {
-                        "country_id": "wal",
-                        "manager_name": "Daniel Newcombe",
-                        "manager_sex": "male",
-                        "result": 12
+                        "country_id":"wal",
+                        "manager_name":"Daniel Newcombe",
+                        "manager_sex":"male",
+                        "result":"12"
                     }
                 ]
             }
