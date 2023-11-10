@@ -1,0 +1,21 @@
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Esto centra verticalmente en toda la altura de la ventana */
+}
+
+/* Estilos adicionales para los elementos internos si es necesario */
+.graph-text {
+  margin-top: 0;
+}
+
+.row.graph {
+  margin-top: auto;
+}
+
+.oracion{
+    color: brown;
+}
+
