@@ -762,7 +762,7 @@
                         "result": 14
                     },
                     {
-                        "country_id": "srd",
+                        "country_id": "srb",
                         "manager_name": "Svetislav Pesic",
                         "manager_sex": "male",
                         "result": 2
@@ -2386,7 +2386,7 @@
             }
         },
         "polo": {
-            "sport_name": "Waterpolo",
+            "sport_name": "Polo Acuático",
             "female": {
                 "event_name": "Campeonato Mundial",
                 "event_date": 2023,
