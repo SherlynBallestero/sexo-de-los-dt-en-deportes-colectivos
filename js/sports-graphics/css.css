@@ -1,0 +1,27 @@
+body{
+    background-color: aliceblue;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-family: Poppins;
+}
+
+g {
+    overflow: hidden;
+    visibility: hidden;
+}
+
+svg{
+    width: 20vw;
+    overflow: visible;
+}
+
+.reveal{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #080808;
+}
