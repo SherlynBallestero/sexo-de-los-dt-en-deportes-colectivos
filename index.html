@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- <link rel="icon" href="./icon.png">-->
+    
 
     <title>Sexo de los DT en los deportes colectivos</title>
     
@@ -29,10 +29,24 @@
     <style></style>
   </head>
 
-  <body>
-    <div class="flex h-96 bg-[url('../img/FC-08.jpg')] bg-cover justify-center items-center" id="article-header">
-      <div class="mt-2 text-3xl font-bold tracking-tight text-gray-900 bg-red-600 sm:text-6xl self-auto">Título del Artículo</div>
-    </div> 
+  <body class="bg-primary">
+    <!-- <div class="flex h-96 bg-[url('../img/FC-08.jpg')] bg-cover justify-center items-center items-end p-0" id="article-header">
+      <div id="fade-overlay" class="absolute w-full h-72 bg-gradient-to-b from-transparent via-transparent to-primary"></div>
+      <div class="relative text-heading  self-auto z-10 -bottom-16">
+        <h1 class="font-bold tracking-tight font-serif lg:text-6xl md:text-4xl sm:text-3xl">Entre Canchas y Prejuicios:</h1>
+        <h2 class="font-bold tracking-tight font-serif lg:text-4xl md:text-2xl sm:text-xl">Género y Directores Técnicos</h2>
+      </div>
+    </div> -->
+    
+    <div class="flex h-96 bg-cover justify-center items-center items-end p-0" id="article-header" style="background-image: url('../img/FC-08.jpg');">
+      <div id="fade-overlay" class="absolute w-full h-72 bg-gradient-to-b from-transparent via-transparent to-primary"></div>
+      <div class="relative text-heading self-auto z-10 -bottom-16">
+        <h1 class="font-bold tracking-tight font-serif lg:text-6xl md:text-4xl sm:text-3xl">Entre Canchas y Prejuicios:</h1>
+        <h2 class="font-bold tracking-tight font-serif lg:text-4xl md:text-2xl sm:text-xl">Género y Directores Técnicos</h2>
+      </div>
+    </div>
+
+    
     <div id="montses-kiss" class="pl-[7%] pr-[7%]">
       <h3 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"> El Problema Español</h3>
       <p class="mt-6 text-xl leading-8 text-gray-700">
@@ -46,9 +60,11 @@
       </p>
     </div>
 
-    <div id="montse-kiss-images" class="grid grid-cols-2 gap-4 pl-[7%] pr-[7%] mt-6 mb-6">
-      <img src="./img/KISS-01.jpg" alt="Monstses kiss 01">
-      <img src="./img/KISS-02.jpg" alt="Monstses kiss 02">
+    <div class="relative">
+      <img class="w-full mt-6" src="./img/KISS-01.jpg" alt="">
+      <div class="absolute bottom-0 w-full bg-white bg-opacity-50 p-0 m-0">
+        <p class="text-black w-full lg:text-xl md:text-base sm:text-sm bg-gradient-to-b from-transparent via-transparent to-primary m-0 text-center">El presidente de la Federación Española de Fútbol, Luis Rubiales, besó en la boca a la jugadora Jenni Hermoso en la ceremonia de premiación del Mundial de Australia y Nueva Zeland</p>
+      </div>
     </div>
   
     <div id="football" class="pl-[7%] pr-[7%]">
@@ -75,21 +91,21 @@
     </div>
   
     <div id="sports-generalizing" class="pl-[7%] pr-[7%]">
-      <!-- Este texto esta muy largo, podemos hacerlo mas interesante poniendo imagenes en el medio-->
+    
       <h3 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-8"> Entrenadoras en Diferentes Deportes </h3>
-      <div id="content">
-        <!-- Una forma de poner las imagenes pudiese ser dividir el contenido en columnas de modo que el texto quede al lado de las imagenes -->
-        <div class="columns-2">
-          <p class="mt-6 text-xl leading-8 text-gray-700">
-            En los últimos campeonatos mundiales efectuados, varios deportes han igualado el número de países participantes en campeonatos femeninos a los participantes en campeonatos masculinos.
-          </p>
-          <img src="./img/FC-02.webp" class="w-full">
+      <div class="relative">
+        <img class="w-full mt-6" src="./img/entrenadora.jpg" alt="">
+        <div class="absolute bottom-0 w-full bg-white bg-opacity-50 p-0 m-0">
+          <p class="text-black w-full lg:text-xl md:text-base sm:text-sm bg-gradient-to-b from-transparent via-transparent to-primary m-0 text-center">Luri Sorroche, única entrenadora que dirige un equipo de fútbol masculino en Catalunya.</p>
         </div>
-        <!-- Otra formas pudiese ser simplemente intercalar imagenes con texto -->>
+      </div>  
+      <div id="content">
+       
+         
         <p class="mt-6 text-xl leading-8 text-gray-700">
-          De los 9 deportes analizados, es importante destacar que 5 de ellos contaron con una participación igualitaria en campeonatos de ambos sexos.  Entre ellos están el fútbol, el balonmano, el hockey, el waterpolo y el voleibol.
+          En los últimos campeonatos mundiales efectuados, varios deportes han igualado el número de países participantes en campeonatos femeninos a los participantes en campeonatos masculinos.De los 9 deportes analizados, es importante destacar que 5 de ellos contaron con una participación igualitaria en campeonatos de ambos sexos.  Entre ellos están el fútbol, el balonmano, el hockey, el waterpolo y el voleibol.
         </p>
-        <img src="./img/FC-07.webp" class="w-full">
+      
         <p class="mt-6 text-xl leading-8 text-gray-700">
           El único deporte que superó la cantidad de entrenadoras femeninas respecto a los masculinos en el último campeonato mundial femenino fue el softball, con un 62.5% de entrenadoras mujeres.  El softbol se derivó del baseball. Sin embargo, este último contó con una participación de entrenadoras femeninas muy inferior a la de su descendiente, del 16.67%. ¿A qué puede deberse esta notable diferencia?
         </p>
@@ -123,6 +139,12 @@
         <p class="mt-6 text-xl leading-8 text-gray-700">
           La respuesta es sí. Algunos nombres destacados son Becky Hammon, quien se convirtió en la primera mujer en dirigir un partido de la NBA y Helena Costa, quien fue la primera mujer en dirigir un equipo masculino en la liga europea, Clermont Foot.
         </p>
+        <div class="relative">
+          <img class="w-full mt-6" src="./img/BH.avif" alt="">
+          <div class="absolute bottom-0 w-full bg-white bg-opacity-50 p-0 m-0">
+            <p class="text-black w-full lg:text-xl md:text-base sm:text-sm bg-gradient-to-b from-transparent via-transparent to-primary m-0 text-center">Becky Hammon durante un partido de San Antonio durante la época de COVID. Credit: Gary A. Vasquez.</p>
+          </div>
+        </div> 
         <p class="mt-6 text-xl leading-8 text-gray-700">
           A pesar de verse, en los últimos años, una mayor vinculación de las féminas en el mundo del deporte, todavía se tiene la percepción del deporte como algo masculino, tanto por concepciones sociales como por las limitantes que se le presentan a los equipos femeninos. No es un camino fácil, más cuando el deporte femenino surgió en un momento en el que el  masculino ya había alcanzado un nivel de desarrollo considerable. Tampoco es posible forzar a la sociedad a consumir deporte femenino en igual proporción que el masculino. Esta es una lucha, en la que las mujeres, por sí solas, deben ganarse un lugar significativo en el mundo del deporte.
         </p>
