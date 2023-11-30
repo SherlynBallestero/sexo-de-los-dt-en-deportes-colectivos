@@ -1,1 +1,580 @@
-Sitio para acceder al proyecto
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="./icon.png">-->
+
+    <title>Sexo de los DT en los deportes colectivos</title>
+    
+    <!-- Development only -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="input.css">
+    
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="http://unpkg.com/leaflet@latest/dist/leaflet.js"></script>
+    <script src="js/world-graphic/World Map/leaflet-providers.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <style></style>
+  </head>
+
+  <body class="bg-primary">
+    <div id="article-header" class="flex h-72 bg-[url('../img/FC-08.jpg')] bg-cover justify-center items-end p-0" >
+      <div id="fade-overlay" class="absolute w-full h-72 bg-gradient-to-b from-transparent via-transparent to-primary"></div>
+      <div class="relative text-heading  self-auto z-10 -bottom-16">
+        <h1 class="font-bold tracking-tight font-serif lg:text-6xl md:text-4xl sm:text-3xl">Entre Canchas y Prejuicios:</h1>
+        <h2 class="font-bold tracking-tight font-serif lg:text-4xl md:text-2xl sm:text-xl">Género y Directores Técnicos</h2>
+      </div>
+    </div>
+
+    <div id="montses-kiss" class="sm:px-[10%] px-[20%] text-text mt-56 lg:text-xl md:text-base sm:text-sm">
+      <h3 class="flex justify-center  mt-4 font-bold tracking-tight text-heading lg:text-4xl md:text-2xl sm:text-xl"> El Problema Español</h3>
+      <hr class="border-t border-heading mt-3 mb-10">
+      <p class="mt-6 leading-8">
+        El pasado 20 de agosto en Sídney, Australia, se coronó la Selección femenina de futbol de España como campeona del mundo por primera vez en su historia. Justa victoria para un equipo que demostró superioridad e intensidad a lo largo de la cita. La celebración se merecía, pero se acabó el futbol e inici: la polémica: el presidente de la Real Federación Española de Fútbol (RFEF) se emocionó demasiado y los derechos de una mujer fueron ultrajados. 
+      </p>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        Mientras felicitaba a las jugadoras por su triunfo, Luis Rubiales besó en la boca a la mediocampista Jenni Hermoso de manera no consentida, en un acto nada bien recibido por la prensa e instituciones españolas. Las críticas llovían y las peticiones de dimisión hacían eco en las calles. En medio de este foco mediático las figuras que apoyaron al presidente fueron observadas con detenimiento. El caso del Director Técnico de la Selección femenina, Jorge Vilda, es de los más relevantes ya que el 5 de septiembre la RFEF lo cesa del cargo por su apoyo a Rubiales y sospecha de coacción a la futbolista.
+      </p>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        Para su remplazo llegó Montse Tomé, entrenadora de grandes resultados con la Selección femenina sub-17 de España, además de muchos años de experiencia como futbolista profesional. Teniendo en cuenta la difusión mundial de las noticias futbolísticas, los actos de misoginia y sexismo de Rubiales y el hecho de que Tomé sea la primera entrenadora en la historia de la Selección femenina de futbol de España, nos comenzaron a surgir dudas. ¿Es el futbol un deporte solo de hombres, o al menos en su mayoría? Y en caso de ser cierto ¿Por qué lo es?
+      </p>
+    </div>
+
+    <div class="relative">
+      <img class="w-full mt-6" src="./img/KISS-01.jpg" alt="">
+      <div class="absolute bottom-0 w-full bg-white bg-opacity-50 p-0 m-0">
+        <p class="text-black w-full lg:text-xl md:text-base sm:text-sm bg-gradient-to-b from-transparent via-transparent to-primary m-0 text-center">Origen y descrición de la imagen</p>
+      </div>
+    </div>
+
+
+    <div id="football" class="sm:px-[10%] px-[20%] text-text lg:text-xl md:text-base sm:text-sm">
+      <p class="mt-6 leading-8">
+        En el fútbol existe un predominio masculino al frente de las selecciones nacionales. Al menos eso nos dicen los últimos campeonatos mundiales celebrados.
+        En la cita de Qatar 2022, donde Argentina reinó sobre Francia en el fútbol masculino, todas las selecciones fueron dirigidas por hombres. Por su parte,
+        en la copa mundial femenina celebrada entre Australia y Nueva Zelanda en este 2023, de las 32 selecciones participantes solo 12 tuvieron al frente a mujeres. Esto es el 18.75% de las 64 selecciones participantes en ambas citas y el 37.5% de las que clasificaron al cónclave femenino.
+  
+      </p>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        Un dato interesante es que el primer mundial de futbol masculino tuvo lugar en 1930, y es considerado uno de los eventos deportivos mas esperados. Sin embargo el primer mundial femenino ocurrió 61 años mas tarde, y su repercusion es inmensamente menor que su ccontraparte masculina.
+      </p>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        El futbol masculino probablemente es el deporte mas seguido en el mundo. Existiendo una saturación de partidos, cada fin de semana ocurren una infinadad de partidos que son retrasmitidos por las principales cadenas deportivas. En comparación el futbol femenino recibe mucha menor exposición mediática.
+      </p>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        Muchos de los entrenadores y entrenadoras son grandes exfutbolistas, pero dado la mayor visivilidad y desarrollo del sector masculino. La media de los futbolistas hombres es mucho mas conocida que las mujeres.
+      </p>
+    </div>
+  
+    <div id="football-graphs" class="pl-[7%] pr-[7%]">
+      <h3 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"> Gráfico de Futbol </h3>
+    </div>
+  
+    <img src="./img/FC-07.webp" class="w-full">
+
+    <div id="football" class="sm:px-[10%] px-[20%] text-text lg:text-xl md:text-base sm:text-sm">
+        <p class="mt-6 leading-8  ">
+          El fútbol no es el único deporte donde las mujeres están en desigualdad, ya sea por la cantidad de equipos convocados a eventos de máximo nivel o por el número de entrenadoras al frente de equipos participantes. Si se tienen en cuenta deportes colectivos con presencia en citas olímpicas, en los últimos campeonatos mundiales efectuados, no en todos los deportes se ha igualado el número de países participantes de las lides femeninas a los participantes en sus equivalentes masculinos. De los 9 deportes colectivos con participación olímpica, 5 de ellos contaron con una participación igualitaria en campeonatos de ambos sexos: el fútbol, el balonmano, el hockey sobre césped, el polo acuático y el voleibol.
+        </p>
+        <img src="./img/FC-07.webp" class="w-full">
+        <p class="mt-6 text-xl leading-8 text-gray-700">
+          El único deporte que superó la cantidad de entrenadoras femeninas respecto a los masculinos en el último campeonato mundial femenino fue el softball, con un 62.5% de entrenadoras mujeres.  El softbol se derivó del baseball. Sin embargo, este último contó con una participación de entrenadoras femeninas muy inferior a la de su descendiente, del 16.67%. ¿A qué puede deberse esta notable diferencia?
+        </p>
+        <p class="mt-6 text-xl leading-8 text-gray-700">
+          A pesar de ser ambos deportes muy parecidos, presentan diferencias significativas. Entre ellas es importante  destacar que las bases del softball son relativamente cortas. Su campo de juego es más pequeño y dicha diferencia, agiliza considerablemente las acciones. La pelota oficial es más grande y ligera que la del baseball, lo cual le permite viajar a una mayor velocidad. El bate del baseball, a su vez, es más grueso y pesado que el del softaball.
+        </p>
+        <p class="mt-6 text-xl leading-8 text-gray-700">
+          Otra posible causa de por qué las mujeres prefieren el softball es que, durante 12 años, fue el único deporte de equipo jugado por mujeres en Juegos Olímpicos, siendo considerado la versión femenina de baseball. Además, la primera Copa Mundial de Softball  jugada por mujeres tuvo lugar en 1965, un año antes que el campeonato mundial masculino.
+        </p>
+        <p class="mt-6 text-xl leading-8 text-gray-700">
+          El baloncesto, a pesar de ser un deporte cuya participación femenina en la Copa Mundial Femenina resulta muy inferior a la masculina, con un 37.5%, contó durante el último campeonato mundial con una cifra relevante de entrenadoras femeninas, que representa el 41% del total de entrenadores masculinos.
+        </p>
+        <p class="mt-6 text-xl leading-8 text-gray-700">
+          El baloncesto femenino es de los pocos deportes que se desarrolló casi al mismo tiempo que el masculino. El primer encuentro femenino se jugó en Estados Unidos en 1893. No fue hasta 1953 que comenzó a disputarse la Copa Mundial de Baloncesto Femenino, tres años después de la masculina.
+        </p>
+        <p class="mt-6 text-xl leading-8 text-gray-700">
+          Es necesario destacar la relevancia de la Copa Mundial de Fútbol celebrada en Australia y Nueva Zelanda este año.
+        </p>
+        
+     </div>
+
+        <img src="./img/FC-02.webp" class="w-full">
+        
+     <div id="sports-generalizing" class="sm:px-[10%] px-[20%] text-text lg:text-xl md:text-base sm:text-sm">   
+        <p class="mt-6 leading-8  ">
+          El voleibol y el rugby7 contaron con cifras deplorables de entrenadoras femeninas, del 4.17% y 12.5% respectivamente del total de entrenadores. La Copa del Mundo de Rubgy 7 tuvo lugar por primera vez en 1993 en Edimburgo. No fue hasta el 2009 en su quinta edición en Dubai, que se se efectuaron los torneos tanto de hombres como de mujeres. Los campeonatos mundiales de voleibol en ambos sexos surgieron casi a la par, el masculino en 1949 y en 1952.
+        </p>
+        <p class="mt-6 text-xl leading-8 text-gray-700">
+          Cabe recalcar que en los campeonatos mundiales analizados, ningún equipo masculino fue dirigido por mujeres. Esto pudiera provocar la siguiente interrogante. ¿Se han dado casos de equipos masculinos dirigidos por mujeres?
+        </p>
+        <p class="mt-6 text-xl leading-8 text-gray-700">
+          La respuesta es sí. Algunos nombres destacados son Becky Hammon, quien se convirtió en la primera mujer en dirigir un partido de la NBA y Helena Costa, quien fue la primera mujer en dirigir un equipo masculino en la liga europea, Clermont Foot.
+        </p>
+        <p class="mt-6 text-xl leading-8 text-gray-700">
+          A pesar de verse, en los últimos años, una mayor vinculación de las féminas en el mundo del deporte, todavía se tiene la percepción del deporte como algo masculino, tanto por concepciones sociales como por las limitantes que se le presentan a los equipos femeninos. No es un camino fácil, más cuando el deporte femenino surgió en un momento en el que el  masculino ya había alcanzado un nivel de desarrollo considerable. Tampoco es posible forzar a la sociedad a consumir deporte femenino en igual proporción que el masculino. Esta es una lucha, en la que las mujeres, por sí solas, deben ganarse un lugar significativo en el mundo del deporte.
+        </p>
+      </div>
+    </div>
+  
+    <div id="sports-graphics" class=" text-text">
+      <h3 class="flex justify-center  mt-4 font-bold tracking-tight text-heading sm:px-[10%] px-[20%] lg:text-4xl md:text-2xl sm:text-xl"> Gráfico de Deportes </h3>
+      <hr class="border-t border-heading mt-3 mb-10 m-[20%]">
+      <div class="px-[7%]" id="sports-graph">
+        <div class="flex-item" id="cartel" style="background-color: white;border: 1px solid black; padding: 5px;">
+        Equipos dirigidos por mujeres 41<br>
+        Equipos dirigidos por hombres 332<br>
+        Equipos totales 373
+      </div>
+    
+      <div style="margin-top: 15px;">
+        <select class="Sexo" id="Sexo" name="Sexo">
+          <option value="" selected disabled hidden> Modalidad </option>
+          <option value="all">Todos</option>
+          <option value="female">Femenino</option>
+          <option value="male">Masculino</option>
+        </select>
+      
+        <select class="Region" id="Region" name="Region">
+          <option value="" selected disabled hidden> Region </option>
+          <option value="none" > Todos </option>
+          <option value="África">África</option>
+          <option value="América">América</option>
+          <option value="Asia">Asia</option>
+          <option value="Australia y Oceanía">Australia y Oceanía</option>
+          <option value="Europa">Europa</option>
+        </select>
+      
+        <select class="Desarrollo" id="Desarrollo" name="Desarrollo">
+          <option value="" selected disabled hidden> Nivel de Desarrollo </option>
+          <option value="none" > Todos </option>
+          <option value="alto">Alto</option>
+          <option value="medio">Medio</option>
+          <option value="bajo">Bajo</option>
+        </select>
+        <select class="Countries" id="Countries" name="Countries">
+          <option value="" selected disabled hidden> Pais </option>
+          <option value="none" > Todos </option>
+        </select>
+      </div>
+    
+      <div class="grid grid-cols-3">
+        <div class="relative">
+          <svg class="transition duration-500 hover:scale-105 inline-block" id="futbol" width="220" height="120">
+            <rect id="fill" x="10" y="10" rx="5" ry="5" width="200" height="100" stroke="black" stroke-width="5"
+              fill="url(#F1g)" />
+            <circle id="circle" cx="110" cy="60" r="25" stroke="black" stroke-width="5" fill="none" />
+            <path d="M110 10 L110 110 Z" stroke="black" stroke-width="5" />
+            <rect id="area1" x="10" y="30" rx="5" ry="5" width="35" height="60" stroke="black" stroke-width="5"
+              fill="none" />
+            <rect id="area2" x="175" y="30" rx="5" ry="5" width="35" height="60" stroke="black" stroke-width="5"
+              fill="none" />
+          </svg>
+        
+          <svg class="absolute inline-block top-24" height="30px" width="30px" version="1.1" id="soccerball" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+            <style type="text/css">
+              .st0 {
+                fill: #000000;
+              }
+            </style>
+            <g>
+              <path class="st0" d="M464.16,107.059l0.067,0.084l-0.134-0.194c0.016,0.016,0.025,0.042,0.042,0.058
+          c-31.462-43.992-76.546-77.562-129.185-94.562l0.067,0.016C310.134,4.328,283.538,0,256,0c-27.53,0-54.135,4.328-79.009,12.47
+          l0.059-0.025c-52.631,17-97.714,50.571-129.177,94.571l0.033-0.042C17.824,148.756,0.092,200.168,0,255.621v0.034V256
+          c-0.008,57.134,18.748,110.016,50.495,152.537c30.984,41.748,74.387,73.74,124.882,90.446c-0.016,0-0.034,0-0.042-0.009
+          l0.354,0.118l-0.286-0.101C200.798,507.488,227.932,512,256,512c28.151,0,55.302-4.512,80.748-13.11
+          c50.403-16.638,93.899-48.63,124.882-90.394l-0.016,0.025C493.269,366,512.008,313.126,512,256v-0.345v-0.025
+          C511.916,200.235,494.302,148.84,464.16,107.059z M264.622,76.008l47.328-34.336c4.16,1.084,8.311,2.176,12.361,3.504l0.068,0.025
+          c45.462,14.681,84.529,43.748,111.756,81.832l0.068,0.092c2.504,3.479,4.823,7.101,7.126,10.723l-17.942,54.942l-101.512,33.184
+          l-59.252-43.21V76.008z M75.84,127.076l0.033-0.042c27.228-38.084,66.294-67.151,111.757-81.832l0.067-0.025
+          c4.05-1.328,8.202-2.42,12.361-3.504l47.352,34.361v106.731l-59.235,43.21L86.698,192.798l-18-54.95
+          C71,134.202,73.327,130.571,75.84,127.076z M86.336,398.244c-2.815-3.354-5.614-6.732-8.227-10.252l-0.034-0.042
+          C50.613,351.126,34.428,305.571,34.42,256v-0.311c0.008-4.344,0.277-8.614,0.529-12.891l46.428-33.639l101.538,33.202
+          l22.698,69.386l-62.765,86.496H86.336z M338.05,461.689c-4.008,1.588-8.025,3.185-12.142,4.538l-0.127,0.042
+          c-21.874,7.395-45.286,11.312-69.781,11.312c-24.395,0-47.832-3.916-69.74-11.244l-0.126-0.041
+          c-4.109-1.361-8.109-2.95-12.109-4.547L156.73,408.42l62.815-86.564h72.815l62.53,87.765L338.05,461.689z M477.58,256
+          c-0.009,49.58-16.194,95.142-43.58,131.966l-0.016,0.026c-2.614,3.52-5.412,6.89-8.227,10.252h-57.84l-61.521-86.345l22.74-69.547
+          l101.546-33.202l46.369,33.639c0.252,4.269,0.521,8.546,0.53,12.891V256z" />
+              <path class="st0" d="M336.806,498.874c-0.025,0.008-0.042,0.008-0.058,0.016c-0.026,0.008-0.051,0.017-0.068,0.026L336.806,498.874
+          z" />
+            </g>
+          </svg>
+        </div>
+      
+        <div class="relative">
+          <svg class="transition duration-500 hover:scale-105 inline-block" id="basket" width="220" height="120">
+            <rect id="full" x="10" y="10" rx="5" ry="5" width="200" height="100" stroke="black" stroke-width="5"
+              fill="url(#F2g)" />
+            <circle id="circle" cx="110" cy="60" r="25" stroke="black" stroke-width="5" fill="none" />
+            <path
+              d="M10 45 L35 50 S60 62.5 35 75 L10 80 M35 73 L35 52 M210 45 L185 50  S160 62.5 185 75 L210 80 M185 52 L185 73Z"
+              stroke="black" stroke-width="5" fill="none"></path>
+            <path d="M10 20 S120 60 10 100 M210 20 S100 60 210 100 M110 10 V110 Z" stroke="black" stroke-width="5"
+              fill="none"></path>
+          </svg>
+        
+          <svg class="absolute inline-block top-24" id="basketball" width="30px" height="30px" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M21.5262 17.4999C18.4887 22.7611 11.7612 24.5637 6.49994 21.5262C1.23873 18.4886 -0.563901 11.7611 2.47367 6.49988C5.51123 1.23866 12.2387 -0.563962 17.4999 2.4736C22.7612 5.51117 24.5638 12.2387 21.5262 17.4999ZM5.84382 7.87995C5.25279 7.64272 4.74291 7.45257 4.3292 7.30543C5.59153 5.24057 7.56267 3.85898 9.74648 3.29362C9.77176 3.62621 9.82851 4.00289 9.93722 4.40861C10.3269 5.86297 11.3579 7.58777 13.75 8.96886C14.0666 9.15165 14.3765 9.31079 14.6793 9.44842C14.4757 10.219 14.1794 11.0351 13.7614 11.8848C13.3566 11.6365 12.936 11.3857 12.5 11.1339C9.85449 9.60655 7.52076 8.55305 5.84382 7.87995ZM12.7587 13.6161C12.3555 13.3682 11.9358 13.1176 11.5 12.866C8.94938 11.3934 6.70297 10.3799 5.09882 9.73602C4.44209 9.47241 3.89359 9.27099 3.47664 9.12556C2.8887 10.8629 2.86217 12.7007 3.33339 14.4015C3.63406 14.2571 3.98864 14.1179 4.39435 14.0092C5.84872 13.6195 7.85792 13.65 10.25 15.0311C10.5667 15.2139 10.8594 15.4027 11.13 15.5961C11.6875 15.0424 12.2384 14.3885 12.7587 13.6161ZM12.6204 16.9341C13.4037 17.8315 13.839 18.756 14.0628 19.5913C14.1715 19.997 14.2283 20.3736 14.2536 20.7061C15.962 20.2638 17.5403 19.3219 18.7509 17.9441C18.4164 17.6557 17.9678 17.2815 17.4112 16.8446C16.6284 16.2301 15.633 15.4925 14.4426 14.6962C13.8639 15.5605 13.2482 16.3006 12.6204 16.9341ZM9.52737 16.9296C9.43788 16.8737 9.34548 16.8182 9.25005 16.7631C7.31205 15.6442 5.84818 15.6902 4.91199 15.9411C4.58 16.03 4.30141 16.1484 4.0805 16.2639C4.53358 17.1073 5.12461 17.8846 5.84359 18.5583C5.87614 18.5513 5.90977 18.5439 5.94444 18.5361C6.44532 18.4223 7.15871 18.2112 7.97658 17.8245C8.4626 17.5947 8.98712 17.3022 9.52737 16.9296ZM7.92672 20.018C8.21347 19.909 8.51642 19.7815 8.83145 19.6326C9.54844 19.2936 10.3256 18.8442 11.1145 18.2503C11.6989 18.9202 11.9873 19.5728 12.131 20.109C12.2199 20.4409 12.2567 20.7413 12.2672 20.9903C10.8031 21.0352 9.31171 20.7231 7.92672 20.018ZM18.6461 15.2714C17.8061 14.612 16.7364 13.8204 15.4558 12.968C15.9672 11.9634 16.3317 10.9922 16.5833 10.0701C17.7521 10.2998 18.7704 10.2145 19.6057 9.99072C20.0114 9.88202 20.3659 9.74284 20.6666 9.59846C21.2688 11.7723 21.0579 14.1701 19.9008 16.2957C19.5666 16.011 19.147 15.6645 18.6461 15.2714ZM16.9702 8.10789C17.8425 8.27902 18.5519 8.20254 19.0881 8.05887C19.42 7.96992 19.6986 7.85154 19.9195 7.73607C19.2263 6.44565 18.2102 5.3101 16.907 4.46319C16.956 4.76614 16.9971 5.09234 17.0257 5.43977C17.0906 6.23015 17.09 7.1278 16.9702 8.10789ZM15.0328 7.39372C15.0854 6.73963 15.0764 6.13922 15.0324 5.60348C14.9583 4.70183 14.7845 3.97847 14.6326 3.4878C14.622 3.45374 14.6116 3.42082 14.6013 3.38905C13.6584 3.10331 12.6898 2.9801 11.7329 3.00943C11.7433 3.2585 11.7801 3.55897 11.8691 3.89097C12.1199 4.82716 12.812 6.11791 14.75 7.23681C14.8454 7.2919 14.9397 7.34416 15.0328 7.39372Z"
+              fill="#0F0F0F" />
+          </svg>
+        </div>
+      
+        <div class="relative">
+          <svg class="transition duration-500 hover:scale-105 inline-block" id="rugby7" width="220" height="120">
+            <rect id="full" x="10" y="10" rx="5" ry="5" width="200" height="100" stroke="black" stroke-width="5"
+              fill="url(#F3g)" />
+            <path d="M30 10 V110 M70 10 V110 M110 10 V110 M150 10 V110 M190 10 V110Z" stroke="black" stroke-width="5">
+            </path>
+            <path d="M30 20 H180 M30 100 H180 M95 10 V110 M125 10 V110" stroke-dasharray="5 5" stroke="black"
+              stroke-width="3"></path>
+            <path
+              d="M30 20 L37 20 M37 20 L37 16 L37 24 M30 40 L37 40 M37 40 L37 44 L 37 36 M30 100 L37 100 M37 100 L37 104 L37 96 M30 80 L37 80 M37 80 L37 84 L37 76 M26 55 L34 55 M26 65 L34 65 M38 52 L38 58 M38 62 L38 68 M66 40 L74 40 M66 80 L74 80 M92 80 L98 80 M106 80 L114 80 M122 80 L128 80 M146 80 L154 80 M190 80 L183 80 M183 80 L183 76 L183 84 M183 96 L183 104 M183 100 L190 100 M194 65 L186 65 M194 55 L186 55 M182 52 L182 58 M182 62 L182 68 M190 20 L183 20 M183 20 L183 16 L183 24 M183 36 L183 44 M190 40 L183 40 M154 40 L146 40 M122 40 L128 40 M114 40 L106 40 M98 40 L92 40 Z"
+              stroke="black" stroke-width="3"></path>
+          </svg>
+        
+          <svg class="absolute inline-block top-24" id="rugbyball" fill="#000000" width="30px" height="30px" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M21.261,2.164C15.334-.112,9.125,1,5.062,5.062s-5.174,10.271-2.9,16.2a1,1,0,0,0,.575.574c5.707,2.192,11.986,1.317,16.2-2.9,4.063-4.064,5.174-10.271,2.9-16.2A1,1,0,0,0,21.261,2.164ZM3.875,20.127a15.152,15.152,0,0,1-.843-4.143,10.4,10.4,0,0,1,2.92,2.066,10.432,10.432,0,0,1,2.065,2.918A15.171,15.171,0,0,1,3.875,20.127Zm13.651-2.6a11.949,11.949,0,0,1-7.377,3.4,12.264,12.264,0,0,0-2.784-4.293A12.264,12.264,0,0,0,3.07,13.851,11.748,11.748,0,0,1,13.851,3.071a12.273,12.273,0,0,0,2.784,4.294,12.264,12.264,0,0,0,4.295,2.786A11.956,11.956,0,0,1,17.526,17.527Zm.522-11.575a10.428,10.428,0,0,1-2.065-2.919,15.143,15.143,0,0,1,4.142.842,15.152,15.152,0,0,1,.843,4.143A10.422,10.422,0,0,1,18.048,5.952Zm-2.222,5.786a1,1,0,1,1-1.414,1.414l-1.075-1.075-1.26,1.26,1.076,1.075a1,1,0,1,1-1.414,1.414l-1.076-1.075-.629.63A1,1,0,0,1,8.62,13.967l.629-.63L8.174,12.262a1,1,0,0,1,1.414-1.414l1.075,1.075,1.26-1.26L10.847,9.588a1,1,0,0,1,1.414-1.414l1.076,1.075.63-.63a1,1,0,0,1,1.414,1.414l-.63.63Z" />
+          </svg>
+        </div>
+      
+      
+        <div class="relative">
+          <svg class="transition duration-500 hover:scale-105 inline-block" id="handball" width="220" height="120">
+            <rect id="full" x="10" y="10" rx="5" ry="5" width="200" height="100" stroke="black" stroke-width="5"
+              fill="url(#F4g)" />
+            <path d="M10 30 a1 1 0 0 10 60 0 Z" fill="none" stroke="black" stroke-width="5"></path>
+            <path d="M210 30 a1,1 0 10,0 60 0 Z" fill="none" stroke="black" stroke-width="5"></path>
+            <rect x="165" y="55" width="7" height="10" ry="5"></rect>
+            <rect x="45" y="55" width="7" height="10" ry="5"></rect>
+            <path d="M30 10 S100 60 30 110 M180 10 S110 60 180 110" stroke-dasharray="20 5" fill="none" stroke="black"
+              stroke-width="5"></path>
+            <path d="M110 10 V110" stroke="black" stroke-width="5"></path>
+          </svg>
+        
+          <svg class="absolute inline-block top-24" id="handballball" fill="#000000" width="35px" height="35px" viewBox="0 0 256 256" id="Flat"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M227.80005,134.23145a3.95332,3.95332,0,0,0,.04126-.646C227.9436,131.73584,228,129.87451,228,128a99.52272,99.52272,0,0,0-22.29712-62.86963,3.98687,3.98687,0,0,0-.92725-1.12939A100.46161,100.46161,0,0,0,164.66211,34.96a4.06368,4.06368,0,0,0-.48486-.18555,99.984,99.984,0,0,0-72.35645.001,3.95657,3.95657,0,0,0-.47754.18262A100.461,100.461,0,0,0,51.22461,64.00049a3.99131,3.99131,0,0,0-.92774,1.13037A99.5222,99.5222,0,0,0,28,128c0,1.87549.05664,3.73779.15894,5.58789a3.98914,3.98914,0,0,0,.04052.6377,99.33821,99.33821,0,0,0,15.2273,47.07519,3.98659,3.98659,0,0,0,.68652,1.07129,100.3659,100.3659,0,0,0,58.33984,42.31543,3.90139,3.90139,0,0,0,.50049.13574,100.33133,100.33133,0,0,0,50.08692.002,4.01781,4.01781,0,0,0,.50781-.1377,100.36836,100.36836,0,0,0,58.33838-42.31543,3.98659,3.98659,0,0,0,.68652-1.07129A99.33138,99.33138,0,0,0,227.80005,134.23145Zm-60.14478,41.54443-10.53442-14.499,13.9978-43.08155,17.04517-5.53808,31.52148,22.92724a91.36619,91.36619,0,0,1-13.07715,40.1709Zm-79.31054,0-38.95288-.02051a91.36605,91.36605,0,0,1-13.07691-40.1709l31.52124-22.92724,17.04517,5.53808,13.9978,43.08155ZM52.37183,75.67773,62.43164,106.6958l-26.405,19.20557A91.45644,91.45644,0,0,1,52.37183,75.67773Zm53.84741,82.30079L92.75781,116.54883,128,90.94434l35.24219,25.60449-13.46143,41.42969Zm113.75415-32.07715-26.405-19.20606,10.05981-31.01758A91.45644,91.45644,0,0,1,219.97339,125.90137ZM197.70215,68.01953l-12.01,37.0293-17.04541,5.53857L132,83.96191V66.03955l31.54492-22.89307A92.44465,92.44465,0,0,1,197.70215,68.01953Zm-43.27124-28.144L128,59.05762,101.56934,39.87549a92.06653,92.06653,0,0,1,52.86157,0Zm-61.97559,3.271L124,66.03955V83.96191L87.35327,110.5874l-17.04541-5.53857-12.01-37.0293A92.44354,92.44354,0,0,1,92.45532,43.14648ZM54.875,183.7583l32.60156.01709,10.10718,31.05078A92.39617,92.39617,0,0,1,54.875,183.7583Zm52.009,33.79248L94.81665,180.478l10.53418-14.49951h45.29834L161.18335,180.478,149.116,217.55078a92.25036,92.25036,0,0,1-42.23194,0Zm51.53247-2.72461,10.10694-31.05078,32.60156-.01709A92.39545,92.39545,0,0,1,158.4165,214.82617Z" />
+          </svg>
+        </div>
+      
+        <div class="relative">
+          <svg class="transition duration-500 hover:scale-105 inline-block" id="hockey" width="220" height="120">
+            <rect id="full" x="10" y="10" rx="5" ry="5" width="200" height="100" stroke="black" stroke-width="5"
+              fill="url(#F5g)" />
+            <path d="M10 30 a1,1 0 0,10 60 0 Z" fill="none" stroke="black" stroke-width="5"></path>
+            <path d="M210 30 a1,1 0 10,0 60 0 Z" fill="none" stroke="black" stroke-width="5"></path>
+            <path d="M10 15 S100 60 10 105 M210 15 S110 60 210 105" stroke-dasharray="5 5" fill="none" stroke="black"
+              stroke-width="5"></path>
+            <path d="M110 10 V110 M60 10 V110 M160 10 V110" stroke="black" stroke-width="5"></path>
+          </svg>
+        
+          <svg class="absolute inline-block top-24" id="hockeyball" width="30px" height="30px" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <title>hockey_puck</title>
+            <path
+              d="M12,5C6.5,5,2,6.6,2,8.5S6.5,12,12,12s10-1.6,10-3.5S17.5,5,12,5M2,11.8v4.7C2,18.4,6.5,20,12,20s10-1.6,10-3.5V11.8a8.17,8.17,0,0,1-2.3,1.1A25.06,25.06,0,0,1,12,14a25.06,25.06,0,0,1-7.7-1.1A12.29,12.29,0,0,1,2,11.8Z" />
+            <rect width="24" height="24" fill="none" />
+          </svg>
+        </div>
+      
+        <div class="relative">
+          <svg class="transition duration-500 hover:scale-105 inline-block" id="softball" width="220" height="120">
+            <rect x="10" y="10" rx="5" ry="5" width="200" height="100" stroke="black" stroke-width="5" fill="url(#F6g)" />
+            <path
+              d="M100 100 L49 49 M50 50 S110 -35 170 50 M171 49 L120 100 M100 80 M99 99 C100 110 115 120 121 99 M75 75 S110 30 145 75"
+              stroke="black" stroke-width="5" fill="none"></path>
+            <circle cx="110" cy="80" r="5" stroke="black" stroke-width="3" fill="none"></circle>
+            <circle cx="110" cy="80" r="1" stroke="black" stroke-width="1" fill="black"></circle>
+          </svg>
+        
+          <svg class="absolute inline-block top-24" id="softballball" fill="#000000" width="40px" height="40px" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <g data-name="Baseball Ball">
+              <path
+                d="M19.02,4.976A9.927,9.927,0,1,0,15.74,21.2,9.908,9.908,0,0,0,21.93,12,9.856,9.856,0,0,0,19.02,4.976Zm-13.34.71a8.9,8.9,0,0,1,6.04-2.61,8.461,8.461,0,0,1-.34,2.26l-.34-.19a.5.5,0,0,0-.5.86l.5.29a9.227,9.227,0,0,1-1.57,2.47l-.35-.35a.5.5,0,0,0-.7,0,.5.5,0,0,0,0,.71l.34.34a8.875,8.875,0,0,1-2.47,1.58L6,10.536a.5.5,0,0,0-.68-.19.505.505,0,0,0-.18.69l.2.34a8.2,8.2,0,0,1-2.26.35A8.827,8.827,0,0,1,5.68,5.686ZM11.74,17a.5.5,0,1,0-.5.87l.49.29a10.008,10.008,0,0,0-.45,2.74,8.9,8.9,0,0,1-8.18-8.17,9.378,9.378,0,0,0,2.75-.46l.29.5a.5.5,0,0,0,.43.25.475.475,0,0,0,.25-.07.493.493,0,0,0,.18-.68l-.21-.36a9.461,9.461,0,0,0,2.68-1.73l.36.36a.5.5,0,0,0,.35.15.508.508,0,0,0,.36-.15.513.513,0,0,0,0-.71l-.36-.36A9.665,9.665,0,0,0,11.9,6.8l.37.21a.475.475,0,0,0,.25.07.511.511,0,0,0,.44-.25.494.494,0,0,0-.19-.68l-.51-.29a9.789,9.789,0,0,0,.46-2.76,8.924,8.924,0,0,1,8.18,8.18,10.08,10.08,0,0,0-2.74.46l-.28-.49a.505.505,0,0,0-.69-.18.491.491,0,0,0-.18.68l.2.35a9.684,9.684,0,0,0-2.68,1.73l-.35-.35a.5.5,0,0,0-.71,0,.5.5,0,0,0,0,.7l.36.36a9.2,9.2,0,0,0-1.73,2.67Zm6.58,1.32a8.851,8.851,0,0,1-6.04,2.6,8.388,8.388,0,0,1,.34-2.25l.35.2a.451.451,0,0,0,.25.07.5.5,0,0,0,.43-.25.505.505,0,0,0-.18-.69l-.51-.29a8.7,8.7,0,0,1,1.57-2.47l.36.36a.5.5,0,0,0,.7-.71l-.36-.36a9.124,9.124,0,0,1,2.48-1.57l.3.52a.5.5,0,0,0,.43.25.451.451,0,0,0,.25-.07.505.505,0,0,0,.19-.68l-.21-.36a8.449,8.449,0,0,1,2.25-.34,8.992,8.992,0,0,1-.66,3.14A9.172,9.172,0,0,1,18.32,18.316Z" />
+            </g>
+          </svg>
+        </div>
+      
+      
+      
+        <div class="relative">
+          <svg class="transition duration-500 hover:scale-105 inline-block" id="voley" width="220" height="120">
+            <rect id="full" x="10" y="10" rx="5" ry="5" width="200" height="100" stroke="black" stroke-width="5"
+              fill="url(#F7g)" />
+            <path d="M80 10 V110 M140 10 V110 Z" stroke="black" stroke-width="5"></path>
+            <path d="M110 10 V110" stroke-dasharray="8 5" stroke="black" stroke-width="5"></path>
+          </svg>
+        
+          <svg class="absolute inline-block top-24" height="30px" width="30px" version="1.1" id="voleyball" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+            <style type="text/css">
+              .st0 {
+                fill: #000000;
+              }
+            </style>
+            <g>
+              <path class="st0" d="M499.497,176.948c-4.058-12.402-9.126-24.704-15.252-36.623c-2.059-4.168-4.275-8.235-6.601-12.302
+             c-16.928-29.339-38.882-54.144-64.111-73.78c-8.285-6.534-16.945-12.444-25.914-17.778c-1.85-1.108-3.692-2.158-5.543-3.217
+             C343.612,11.502,300.012,0.05,255.796,0c-43.432,0-87.498,11.135-127.764,34.356c-24.963,14.403-46.6,32.398-64.603,52.984
+             c-8.643,9.818-16.403,20.212-23.321,31.139c-2.425,3.742-4.693,7.593-6.851,11.443c-15.945,28.189-26.338,59.111-30.772,91.033
+             c-1.424,10.186-2.216,20.529-2.375,30.872C0,253.312,0,254.729,0,256.212c0,43.424,11.136,87.499,34.356,127.764
+             c23.646,40.999,57.102,73.088,95.576,94.776c22.429,12.669,46.542,21.846,71.555,27.288c12.876,2.851,26.021,4.642,39.215,5.434
+             c5.167,0.367,10.343,0.525,15.519,0.525c31.448,0,63.22-5.801,93.666-17.887c9.661-3.8,19.104-8.234,28.389-13.302
+             c1.901-1,3.8-2.058,5.701-3.167c41.008-23.646,73.088-57.102,94.784-95.575c21.736-38.465,33.188-82.056,33.239-126.281
+             C512,229.408,507.941,202.803,499.497,176.948z M405.306,95.726c15.511,14.411,29.172,31.406,40.366,50.767
+             c7.701,13.353,13.878,27.238,18.47,41.324c-2.901,5.752-5.968,11.403-9.176,16.995c-36.582,63.22-90.358,113.779-155.686,146.335
+             c-5.018,2.484-10.027,4.859-15.145,7.076c-9.818-27.397-14.936-56.469-14.936-85.758c0-1.85,0-3.751,0.05-5.651
+             c30.031-16.403,56.727-38.099,78.848-63.903c5.959-6.968,11.61-14.194,16.836-21.746c2.584-3.584,5.01-7.276,7.385-11.027
+             C386.72,147.342,397.913,122.322,405.306,95.726z M146.502,66.329c34.564-19.937,72.138-29.338,109.294-29.338
+             c37.84-0.05,75.197,9.818,108.137,28.396c6.118,3.426,12.077,7.226,17.878,11.293c-6.376,28.388-17.628,54.935-32.714,78.79
+             c-1.792,2.85-3.634,5.642-5.593,8.443h-0.058c-5.852-4.384-11.87-8.602-17.995-12.669
+             c-61.636-40.841-132.824-63.537-206.604-65.962C127.448,78.364,136.633,72.029,146.502,66.329z M65.387,148.076
+             c7.026-12.452,15.302-24.221,24.754-35.198c5.167-0.258,10.393-0.376,15.57-0.376c73.029,0,143.742,21.321,204.544,61.645
+             c5.593,3.701,11.085,7.551,16.411,11.56c-20.211,23.429-44.749,43.166-72.296,57.943c-29.288-18.261-61.644-30.872-95.258-37.365
+             c-9.018-1.742-18.095-3.059-27.23-3.851c-8.71-0.842-17.412-1.267-26.171-1.267c-21.171,0-42.483,2.376-63.487,7.335
+             C46.917,187.4,54.726,167.021,65.387,148.076z M148.085,446.613c-32.931-18.628-61.428-45.959-81.748-81.106
+             c-19.945-34.564-29.347-72.138-29.396-109.295c0-6.126,0.266-12.185,0.8-18.261c22.371-6.276,45.275-9.344,67.971-9.344
+             c7.434,0,14.877,0.317,22.262,1.009c-0.626,6.118-1.159,12.244-1.525,18.362c-0.526,8.234-0.792,16.519-0.792,24.804
+             c0,64.595,15.728,127.973,45.959,185.283C163.546,454.748,155.678,450.947,148.085,446.613z M256.221,475.009
+             c-15.47,0-30.822-1.634-45.866-4.859h-0.058c-2.634-4.117-5.168-8.285-7.594-12.502c-32.614-56.576-49.609-120.005-49.609-184.866
+             c0-7.701,0.267-15.412,0.742-23.112c0.318-5.443,0.792-10.819,1.376-16.145c30.605,6.01,60.052,17.72,86.599,34.664
+             c-0.05,1.426-0.05,2.851-0.05,4.276c0,32.822,5.751,65.278,16.878,95.942c3.068,8.602,6.602,17.045,10.611,25.33
+             c2.742,5.859,5.751,11.61,8.926,17.253c11.127,19.686,24.696,38.106,40.574,54.834C298.17,472.001,277.166,475.009,256.221,475.009
+             z M446.621,363.923c-18.636,32.931-45.916,61.419-81.114,81.748c-6.068,3.534-12.294,6.693-18.578,9.594
+             c-17.946-17.204-32.931-36.674-44.858-57.785c-2.584-4.584-5.009-9.236-7.276-13.978c5.642-2.434,11.185-5.068,16.728-7.818
+             c66.97-33.289,122.697-84.374,161.695-148.027c1.217,9.352,1.792,18.737,1.843,28.13C475.06,293.628,465.2,330.992,446.621,363.923
+             z" />
+            </g>
+          </svg>
+        </div>
+      
+        <div class="relative">
+          <svg class="transition duration-500 hover:scale-105 inline-block" id="polo" width="220" height="120">
+            <rect x="10" y="10" rx="5" ry="5" width="200" height="100" stroke="black" stroke-width="5" fill="url(#F8g)" />
+            <path d="M25 10 V110 M45 10 V110 M195 10 V110 M175 10 V110" stroke-dasharray="4 2" stroke="black"
+              stroke-width="3">
+            </path>
+            <path d="M110 10 V110" stroke="black" stroke-width="5"></path>
+            <path d="M 10 50 L20 50 M20 50 L20 70 M20 70 L10 70 M210 50 L200 50 M200 50 L200 70 M200 70 L210 70"
+              stroke="black" stroke-width="3"></path>
+          </svg>
+        
+          <svg class="absolute inline-block bottom-1" id="poloball" height="30px" width="30px" version="1.1" id="voleyball"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"
+            xml:space="preserve">
+            <style type="text/css">
+              .st0 {
+                fill: #000000;
+              }
+            </style>
+            <g>
+              <path class="st0" d="M499.497,176.948c-4.058-12.402-9.126-24.704-15.252-36.623c-2.059-4.168-4.275-8.235-6.601-12.302
+             c-16.928-29.339-38.882-54.144-64.111-73.78c-8.285-6.534-16.945-12.444-25.914-17.778c-1.85-1.108-3.692-2.158-5.543-3.217
+             C343.612,11.502,300.012,0.05,255.796,0c-43.432,0-87.498,11.135-127.764,34.356c-24.963,14.403-46.6,32.398-64.603,52.984
+             c-8.643,9.818-16.403,20.212-23.321,31.139c-2.425,3.742-4.693,7.593-6.851,11.443c-15.945,28.189-26.338,59.111-30.772,91.033
+             c-1.424,10.186-2.216,20.529-2.375,30.872C0,253.312,0,254.729,0,256.212c0,43.424,11.136,87.499,34.356,127.764
+             c23.646,40.999,57.102,73.088,95.576,94.776c22.429,12.669,46.542,21.846,71.555,27.288c12.876,2.851,26.021,4.642,39.215,5.434
+             c5.167,0.367,10.343,0.525,15.519,0.525c31.448,0,63.22-5.801,93.666-17.887c9.661-3.8,19.104-8.234,28.389-13.302
+             c1.901-1,3.8-2.058,5.701-3.167c41.008-23.646,73.088-57.102,94.784-95.575c21.736-38.465,33.188-82.056,33.239-126.281
+             C512,229.408,507.941,202.803,499.497,176.948z M405.306,95.726c15.511,14.411,29.172,31.406,40.366,50.767
+             c7.701,13.353,13.878,27.238,18.47,41.324c-2.901,5.752-5.968,11.403-9.176,16.995c-36.582,63.22-90.358,113.779-155.686,146.335
+             c-5.018,2.484-10.027,4.859-15.145,7.076c-9.818-27.397-14.936-56.469-14.936-85.758c0-1.85,0-3.751,0.05-5.651
+             c30.031-16.403,56.727-38.099,78.848-63.903c5.959-6.968,11.61-14.194,16.836-21.746c2.584-3.584,5.01-7.276,7.385-11.027
+             C386.72,147.342,397.913,122.322,405.306,95.726z M146.502,66.329c34.564-19.937,72.138-29.338,109.294-29.338
+             c37.84-0.05,75.197,9.818,108.137,28.396c6.118,3.426,12.077,7.226,17.878,11.293c-6.376,28.388-17.628,54.935-32.714,78.79
+             c-1.792,2.85-3.634,5.642-5.593,8.443h-0.058c-5.852-4.384-11.87-8.602-17.995-12.669
+             c-61.636-40.841-132.824-63.537-206.604-65.962C127.448,78.364,136.633,72.029,146.502,66.329z M65.387,148.076
+             c7.026-12.452,15.302-24.221,24.754-35.198c5.167-0.258,10.393-0.376,15.57-0.376c73.029,0,143.742,21.321,204.544,61.645
+             c5.593,3.701,11.085,7.551,16.411,11.56c-20.211,23.429-44.749,43.166-72.296,57.943c-29.288-18.261-61.644-30.872-95.258-37.365
+             c-9.018-1.742-18.095-3.059-27.23-3.851c-8.71-0.842-17.412-1.267-26.171-1.267c-21.171,0-42.483,2.376-63.487,7.335
+             C46.917,187.4,54.726,167.021,65.387,148.076z M148.085,446.613c-32.931-18.628-61.428-45.959-81.748-81.106
+             c-19.945-34.564-29.347-72.138-29.396-109.295c0-6.126,0.266-12.185,0.8-18.261c22.371-6.276,45.275-9.344,67.971-9.344
+             c7.434,0,14.877,0.317,22.262,1.009c-0.626,6.118-1.159,12.244-1.525,18.362c-0.526,8.234-0.792,16.519-0.792,24.804
+             c0,64.595,15.728,127.973,45.959,185.283C163.546,454.748,155.678,450.947,148.085,446.613z M256.221,475.009
+             c-15.47,0-30.822-1.634-45.866-4.859h-0.058c-2.634-4.117-5.168-8.285-7.594-12.502c-32.614-56.576-49.609-120.005-49.609-184.866
+             c0-7.701,0.267-15.412,0.742-23.112c0.318-5.443,0.792-10.819,1.376-16.145c30.605,6.01,60.052,17.72,86.599,34.664
+             c-0.05,1.426-0.05,2.851-0.05,4.276c0,32.822,5.751,65.278,16.878,95.942c3.068,8.602,6.602,17.045,10.611,25.33
+             c2.742,5.859,5.751,11.61,8.926,17.253c11.127,19.686,24.696,38.106,40.574,54.834C298.17,472.001,277.166,475.009,256.221,475.009
+             z M446.621,363.923c-18.636,32.931-45.916,61.419-81.114,81.748c-6.068,3.534-12.294,6.693-18.578,9.594
+             c-17.946-17.204-32.931-36.674-44.858-57.785c-2.584-4.584-5.009-9.236-7.276-13.978c5.642-2.434,11.185-5.068,16.728-7.818
+             c66.97-33.289,122.697-84.374,161.695-148.027c1.217,9.352,1.792,18.737,1.843,28.13C475.06,293.628,465.2,330.992,446.621,363.923
+             z" />
+            </g>
+          </svg>
+          <svg class="absolute inline-block top-24" id="waves" width="30px" height="30px" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2 18C2.6 18.5 3.2 19 4.5 19C7 19 7 17 9.5 17C10.8 17 11.4 17.5 12 18C12.6 18.5 13.2 19 14.5 19C17 19 17 17 19.5 17C20.8 17 21.4 17.5 22 18M2 12C2.6 12.5 3.2 13 4.5 13M17 13C20.8 11 21.4 11.5 22 12"
+              stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+      
+        <div class="relative">
+          <svg class="transition duration-500 hover:scale-105 inline-block" id="baseball" width="220" height="120">
+            <rect x="10" y="10" rx="5" ry="5" width="200" height="100" stroke="black" stroke-width="5" fill="url(#F9g)" />
+            <path
+              d="M100 100 L49 49 M50 50 S110 -35 170 50 M171 49 L120 100 M100 80 L120 80 M119 81 L145 54 M146 56 L109 29 M111 29 L74 56 M74 54 L101 81 M99 99 C100 110 115 120 121 99"
+              stroke="black" stroke-width="5" fill="none"></path>
+            <path d="M80 50 S100 55 80 60 M140 50 S120 55 140 60 M104 36 S110 45 116 36 " stroke="black" stroke-width="3"
+              fill="none"></path>
+          </svg>
+        
+          <svg class="absolute inline-block top-24" id="baseballball" fill="#000000" width="30px" height="30px" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <g data-name="Baseball Ball">
+              <path
+                d="M19.02,4.976A9.927,9.927,0,1,0,15.74,21.2,9.908,9.908,0,0,0,21.93,12,9.856,9.856,0,0,0,19.02,4.976Zm-13.34.71a8.9,8.9,0,0,1,6.04-2.61,8.461,8.461,0,0,1-.34,2.26l-.34-.19a.5.5,0,0,0-.5.86l.5.29a9.227,9.227,0,0,1-1.57,2.47l-.35-.35a.5.5,0,0,0-.7,0,.5.5,0,0,0,0,.71l.34.34a8.875,8.875,0,0,1-2.47,1.58L6,10.536a.5.5,0,0,0-.68-.19.505.505,0,0,0-.18.69l.2.34a8.2,8.2,0,0,1-2.26.35A8.827,8.827,0,0,1,5.68,5.686ZM11.74,17a.5.5,0,1,0-.5.87l.49.29a10.008,10.008,0,0,0-.45,2.74,8.9,8.9,0,0,1-8.18-8.17,9.378,9.378,0,0,0,2.75-.46l.29.5a.5.5,0,0,0,.43.25.475.475,0,0,0,.25-.07.493.493,0,0,0,.18-.68l-.21-.36a9.461,9.461,0,0,0,2.68-1.73l.36.36a.5.5,0,0,0,.35.15.508.508,0,0,0,.36-.15.513.513,0,0,0,0-.71l-.36-.36A9.665,9.665,0,0,0,11.9,6.8l.37.21a.475.475,0,0,0,.25.07.511.511,0,0,0,.44-.25.494.494,0,0,0-.19-.68l-.51-.29a9.789,9.789,0,0,0,.46-2.76,8.924,8.924,0,0,1,8.18,8.18,10.08,10.08,0,0,0-2.74.46l-.28-.49a.505.505,0,0,0-.69-.18.491.491,0,0,0-.18.68l.2.35a9.684,9.684,0,0,0-2.68,1.73l-.35-.35a.5.5,0,0,0-.71,0,.5.5,0,0,0,0,.7l.36.36a9.2,9.2,0,0,0-1.73,2.67Zm6.58,1.32a8.851,8.851,0,0,1-6.04,2.6,8.388,8.388,0,0,1,.34-2.25l.35.2a.451.451,0,0,0,.25.07.5.5,0,0,0,.43-.25.505.505,0,0,0-.18-.69l-.51-.29a8.7,8.7,0,0,1,1.57-2.47l.36.36a.5.5,0,0,0,.7-.71l-.36-.36a9.124,9.124,0,0,1,2.48-1.57l.3.52a.5.5,0,0,0,.43.25.451.451,0,0,0,.25-.07.505.505,0,0,0,.19-.68l-.21-.36a8.449,8.449,0,0,1,2.25-.34,8.992,8.992,0,0,1-.66,3.14A9.172,9.172,0,0,1,18.32,18.316Z" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  
+    <div id="sports-graphics-analisis" class="sm:px-[10%] px-[20%] text-text lg:text-xl md:text-base sm:text-sm">
+      <h3 class="flex justify-center  mt-4 font-bold tracking-tight text-heading lg:text-4xl md:text-2xl sm:text-xl"> Análisis del Gráfico Anterior </h3>
+      <hr class="border-t border-heading mt-3 mb-10">
+      <p class="mt-6 leading-8  ">
+        Si echamos un vistazo por regiones del mundo podemos encontrar algunas sorpresas.
+      </p>
+      <p class="mt-6 leading-8  ">
+        Primero una puntualización. La totalidad de equipos masculinos están dirigidos por hombres. Así que no se hará énfasis en ello.
+      </p>
+      <p class="mt-6 leading-8  ">
+        El mejor continente en cuanto a la relación de equipos femeninos dirigidos
+        por mujeres es Asia, con un 36%. El Oriente Medio merece especial énfasis pues
+        posee un tercio de sus equipos (por encima del resto de continentes salvo Asia
+        y Australia y Oceanía). Luego, en orden: Australia y Oceanía con un tercio,
+        América con un 26%, Europa con un 20%, y en último puesto, África con un 13%.
+      </p>
+      <p class="mt-6 leading-8  ">
+        En cuanto a resultados, en torneos femeninos los primeros lugares fueron
+        acaparados por Europa con 5, América con 2, y Australia y Oceanía con 1. Es
+        notable que la cantidad de equipos femeninos de países europeos es sensible-
+        mente superior a la del resto del regiones del mundo (17 más que su competidor
+        más cercano, América). Los primeros lugares en torneos masculinos corresponden a Europa con 5, Australia y Oceanía con 2 y América y Asia con 1 cada uno.
+        Nuevamente es notable la diferencia de participaciones europeas (14 más que
+        América, nuevamente su competidor más cercano). Finalmente la región con
+        mejor relación de resultados/participantes es Australia y Oceanía con un 8% y
+        14% de primeros lugares en torneos femeninos y masculinos respectivamente.
+      </p>
+    </div>
+  
+    <div id="graphics-rankings" class="sm:px-[10%] px-[20%] text-text">
+      <h3 class="flex justify-center  mt-4 font-bold tracking-tight text-heading lg:text-4xl md:text-2xl sm:text-xl"> Gráfico de Rankings </h3>
+      <hr class="border-t border-heading mt-3 mb-10">
+    </div>
+  
+    <div id="countries" class="sm:px-[10%] px-[20%] text-text lg:text-xl md:text-base sm:text-sm">
+      <h3 class="flex justify-center  mt-4 font-bold tracking-tight text-heading lg:text-4xl md:text-2xl sm:text-xl"> Entrenadoras Alrededor del Mundo </h3>
+      <hr class="border-t border-heading mt-3 mb-10">
+      <p class="mt-6 leading-8  ">
+        Existe algo que quizás se hayan preguntado en la medida que iba avanzando la lectura: ¿Afectará la situación geográfica a la barrera de género que existe en este ámbito del deporte? Primero tengamos en cuenta que, de los 100 países analizados de los distintos deportes solo 28 tenían presencia femenina en el puesto de entrenador. Estados Unidos, China, Japón y Canadá son los países con mayores entrenadoras, incluso en proporción con la cantidad de participaciones en los distintos deportes.
+      </p>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        Esto nos lleva a analizar si el desarrollo de un país en un factor que influye en este tema. Aunque por otro lado tenemos a Francia y España que son países desarrollados y sin embargo a pesar de participar en numerosas competencias casi todos sus entrenadores en todos los deportes son hombres.
+      </p>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        Si analizamos los datos por continentes o regiones podemos observar que Europa, Centro América, Sur América y el Medio Oriente son los que presentan una mayor diferencia en cuanto a proporción de directores técnicos masculinos y femeninos. Casualmente son países y regiones donde la religión han tenido o mantienen una influencia en la sociedad.
+      </p>
+    </div>
+  
+    <div id="world-map" class="text-text">
+      <h3 class="sm:px-[10%] px-[20%] flex justify-center  mt-4 font-bold tracking-tight text-heading lg:text-4xl md:text-2xl sm:text-xl">Mapa interactivo de los diferentes entrenadores por países</h3>
+      <hr class="mx-[20%] border-t border-heading mt-3 mb-10">
+      <div class="flex mb-5 justify-center">
+        <div>
+          <span>Deportes:&nbsp;</span>
+          <select id="sportSelect">
+          <option value="null">---</option>
+          <option value="all"     >   Todos</option>
+          <option value="baseball" >   Beísbol</option>
+          <option value="voly"  >   Volleyball</option>
+          <option value="futbol"     >   Futbol</option>
+          <option value="rugby"     >   Rugby</option>
+          <option value="handball">  Balonmano</option>
+          <option value="softball">    Softbal</option>
+          <option value="polo">       Polo</option>
+          <option value="hockey" >    Hockey</optio>
+          <option value="basket">   Basketbol</option>
+        </select>
+
+        <span>Categoría:&nbsp;</span>
+        <select id="categorySelect">
+          <option value="null">---</option>
+          <option value="female">Femenina</option>
+          <option value="male">Masculina</option>
+        </select>
+          
+        <span>Entrenadores:&nbsp;</span>
+        <select id="genderSelect">
+          <option value="null">---</option>
+          <option value="female">Mujeres</option>
+          <option value="male">Hombres</option>
+        </select>
+
+        <span>Desarrollo:&nbsp;</span> 
+        <select id="devSelect">
+          <option value="null">---</option>
+          <option value="developed" >Desarrollado</option>
+          <option value="!developed">En desarrollo</option>
+        </select>
+
+        <span>Lugares:&nbsp;</span> 
+        <select id="rankingSelect">
+          <option value="null">---</option>
+          <option value="1" >1-4</option>
+          <option value="2">5-10</option>
+          <option value="3">10...</option>
+        </select>
+          
+        <span>Continente:&nbsp;</span> 
+        <select id="continentSelect">
+          <option value="null">---</option>
+          <option value="América" >America</option>
+          <option value="África" >Africa</option>
+          <option value="Asia" >Asia</option>
+          <option value="Europa" >Europa</option>
+          <option value="Australia y Oceanía" >Oceania</option>
+        </select>
+
+      </div>
+      <div id="map"></div>
+    </div>
+  
+    <div id="world-map-analysis" class="sm:px-[10%] px-[20%] text-text lg:text-xl md:text-base sm:text-sm">
+      <h3 class="flex justify-center  mt-4 font-bold tracking-tight text-heading lg:text-4xl md:text-2xl sm:text-xl"> Análisis del Gráfico Anterior </h3>
+      <hr class="border-t border-heading mt-3 mb-10">
+      <p class="mt-6 leading-8  ">
+        Podemos apreciar que los países con mayor representación de entrenadoras femeninas son países con alto nivel de desarrollo como Estados Unidos, China, Japón o Australia; mientras que la mayoría de los países que no tienen representación de entrenadoras femeninas son los pertecientes al continente africano.
+      </p>
+    </div>
+  
+    <div id="methodology" class="sm:px-[10%] px-[20%] bg-secondary pb-20 lg:text-xl md:text-base sm:text-sm">
+      <h3 class="flex justify-center  mt-4 font-bold tracking-tight text-black lg:text-4xl md:text-2xl sm:text-xl"> Metodología </h3>
+      <hr class="border-t border-heading mt-3 mb-10">
+      <p class="mt-6 leading-8  ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odio quasi itaque placeat accusantium reiciendis eos nihil recusandae ducimus molestias? Doloribus accusantium excepturi dolorem aliquid, sed veniam officia adipisci! Pariatur.
+      </p>
+    </div>
+    <script type="module" src="./js/sports-graphics/sports-graphics.js"></script>
+    <script type="text/javascript" src="./js/world-graphic/World Map/countries.js"></script>
+  </body>
+</html>

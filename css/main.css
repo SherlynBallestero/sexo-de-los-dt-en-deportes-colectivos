@@ -1,0 +1,170 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+}
+.flex-item {
+    width: 33.33%;
+    position: relative;
+}
+.ball
+{
+    position: relative;
+}
+.waves
+{
+    position: relative;
+}
+@media (max-width:850px)
+{
+    .flex-item {
+        width: 50%;
+    }
+}
+@media (max-width: 600px) 
+{
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-item {
+        width: auto;
+    }
+}
+svg {
+    width: fit-content;
+}
+#futbol {
+    position: relative;
+}
+#soccerball {
+    transition: all 0.5s ease-in-out;
+    background-color: red;
+}
+#basket {
+    position: relative;
+}
+#basketball {
+    transition: all 0.5s ease-in-out;
+}
+#rugby7 {
+    position: relative;
+}
+#rugbyball {
+    transition: all 0.5s ease-in-out;
+}
+
+#handball {
+    position: relative;
+}
+
+#handballball {
+    transition: all 0.5s ease-in-out;
+}
+
+#hockey {
+    position: relative;
+}
+
+#hockeyball {
+    transition: all 0.5s ease-in-out;
+}
+
+#softball {
+    position: relative;
+}
+
+#softballball {
+    rotate: 45deg;
+    transition: all 0.5s ease-in-out;
+}
+
+#voley {
+    position: relative;
+}
+
+#voleyball {
+    transition: all 0.5s ease-in-out;
+}
+
+#polo {
+    position: relative;
+}
+
+#poloball {
+    position:absolute;
+    transition: all 0.5s ease-in-out;
+    z-index: 2;
+    bottom: 10%;
+}
+
+#waves {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    bottom: 0%;
+}
+
+#baseball {
+    position: relative;
+}
+
+#baseballball {
+    transition: all 0.5s ease-in-out;
+}
+
+svg.court:hover {
+    fill: #0e1a25;
+    background: none;
+    transform: scale(1.05);
+    transition: transform 0.5s ease-out;
+}
+
+#Sexo {
+    position: relative;
+}
+
+#Region {
+    position: relative;
+}
+
+#Desarrollo {
+    position: relative;
+}
+
+#Countries {
+    position: relative;
+}
+
+#cartel {
+    position: relative;
+    z-index: 9999;
+}
+
+body{
+    background-color: aliceblue;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-family: Poppins;
+}
+
+g {
+    overflow: hidden;
+    visibility: hidden;
+}
+
+svg{
+    width: 20vw;
+    overflow: visible;
+}
+
+.reveal{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #080808;
+}
